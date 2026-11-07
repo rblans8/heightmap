@@ -1,5 +1,7 @@
 # Heightmap Generator
 
+(Note: This is a fork of a tool created by tristeng.  I didn't want to mess up his project with my random changes.  See the original tool here: https://github.com/tristeng/heightmap)
+
 A Python tool for converting 2D polyline data into heightmap EXR files. The tool can read polyline data from local JSON files or fetch it from a remote API, then interpolate the data to create elevation maps.
 
 This repo was written 95% by AI while I was watching TV using Claude 3.7 Sonnet Thinking Copilot model. I created this so I could convert some 2D levels I had created for a mobile game called [StuntSki](https://deaddropgames.com/stuntski/) into heightmaps I could import into Godot. The levels are available through an API on the above website.
